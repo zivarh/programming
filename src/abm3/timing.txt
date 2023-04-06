@@ -1,0 +1,6 @@
+We can see that it took about 0.6 seconds to calculate both the minimum and maximum distances using the same set of nested loops. This is significantly quicker than calculating all the distances twice. By using the same nested loop to calculate both distances, we are able to reduce the computation time by a factor of two.
+
+It is important to note that the computation time will vary based on the number of agents in the simulation. The current simulation uses 1000 agents, which is a moderate size. For larger simulations with tens or hundreds of thousands of agents, the computation time would be much longer.
+
+
+
